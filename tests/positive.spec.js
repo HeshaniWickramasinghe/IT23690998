@@ -161,6 +161,7 @@ const scenarios = [
 
 ];
 
+ 
 for (const scenario of scenarios) {
   test(`${scenario.id}: ${scenario.name}`, async ({ page }) => {
     await page.goto('https://www.swifttranslator.com/');
